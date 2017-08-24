@@ -1,0 +1,19 @@
+.section-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-nav ul li {
+  margin: 10px;
+}
+
+.section-nav ul li a:hover {
+  background: $lightest-gray;
+  cursor: pointer;
+}
+
+.section-nav ul li:last-child a:hover {
+  background: white;
+  text-decoration: underline;
+}
